@@ -9,10 +9,11 @@
 }
 
 #guests-video {
-  background-image: url('./../../../assets/bg/bg_football.jpg');
+  background-image: url('/src/components/LandingPages/Home/Images/bg.webp');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+
 }
 
 #testimonials {
