@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Guests.css';
 import SliderGuests from './SliderGuests';
+import Carousel from '../Home/Carousel/Carouselhp';
 
 const Guests = () => {
   const [index, setIndex] = useState(0);
@@ -46,6 +47,9 @@ const Guests = () => {
 
   return (
     <>
+      <div className='bg'>
+        <Carousel />
+      </div>
       <div id="guests-video">
         <section
           id="guests"
