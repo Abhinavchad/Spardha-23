@@ -7,6 +7,7 @@ import { Suspense } from 'react/cjs/react.production.min';
 import ReactGA from 'react-ga';
 import InitializeReactGA from './helper/googleAnalytics.ts';
 import NotFound from './components/LandingPages/NotFound/NotFound';
+// import { Carousel } from 'react-responsive-carousel';
 
 const LandingPages = React.lazy(() =>
   import('./components/LandingPages/LandingPages')
@@ -124,6 +125,7 @@ function App() {
               element={
                 <Suspense fallback={<Preloader />}>
                   <Signup />
+                  
                 </Suspense>
               }
             />

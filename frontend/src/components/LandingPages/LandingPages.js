@@ -13,7 +13,6 @@ function LandingPages() {
 
       {/* <Footer /> */}
 
-      {/* <Footer /> */}
     </>
 
   );
