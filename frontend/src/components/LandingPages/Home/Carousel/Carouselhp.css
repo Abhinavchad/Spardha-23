@@ -1,4 +1,5 @@
 .carousel-home{
+
 	width: 100vw;
 	/* position: absolute; */
 	position: fixed;
@@ -6,11 +7,11 @@ top: 0px;
 	left: 0px;
 	opacity: 1;
 	background-image: linear-gradient(to right, red, blue);
-	background-size: 100vw;
+	background-size: 100%;
 }
 .carousel-image-home{
 	height: 100vh;
-	width: 100vw;
+	width: calc(100vw - var(--width_sc));
 	opacity: 0.6;
 }
 #prev{
